@@ -1,0 +1,38 @@
+.lightning {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 52px;
+	left: 50px;
+	z-index: 2;
+}
+
+.lightning:last-child {
+	top: 60px;
+	left: 10px;
+}
+
+
+.lightning div:first-child{
+		width: 18px;
+		height: 20px;
+		-webkit-transform: skew(-18deg);
+		-moz-transform: skew(-18deg);
+		-o-transform: skew(-18deg);
+	 	background: #fff;
+	 	position: absolute;
+	 	left: 5px;
+}
+
+.lightning div:last-child {
+width: 0;
+height: 0;
+position: absolute;
+left: 5px;
+top: 10px;
+border-left: 18px solid transparent;
+border-right: 17px solid transparent;
+border-bottom: 13px solid #fff;
+transform: rotate(-37deg);
+}
+
