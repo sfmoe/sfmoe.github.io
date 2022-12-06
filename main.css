@@ -1,0 +1,27 @@
+body {
+    background-color: #1b1f23;
+    color: #abb2bf;
+  }
+  
+  a {
+    color: #61afef;
+  }
+  
+  a:hover {
+    color: #56b6c2;
+  }
+  
+  pre {
+    background-color: #282c34;
+    color: #fff;
+    border: 1px solid #61afef;
+  }
+
+img[alt="Calders Flamingo Chicago"]{
+    width: 100%;
+}
+  zero-md{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
